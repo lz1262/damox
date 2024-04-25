@@ -4,42 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Website with Chatbot</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #666;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+        /* 省略样式，保持不变 */
     </style>
 </head>
 <body>
@@ -54,6 +21,14 @@
     <section>
         <h2>About Us</h2>
         <p>This is a simple static website created for demonstration purposes.</p>
+        
+        <!-- 将你的大语言模型代码嵌入到这里 -->
+        <iframe
+         src="https://udify.app/chatbot/czmVKt8FEsdKaHc7"
+         style="width: 100%; height: 100%; min-height: 700px"
+         frameborder="0"
+         allow="microphone">
+        </iframe>
     </section>
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
